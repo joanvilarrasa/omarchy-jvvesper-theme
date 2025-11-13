@@ -1,0 +1,272 @@
+
+@define-color grey-100: #eeeeee;
+@define-color grey-200: #d4d4d4;
+@define-color grey-300: #b4b4b4;
+@define-color grey-400: #8f8f8f;
+@define-color grey-500: #808080;
+@define-color grey-600: #6f6f6f;
+@define-color grey-700: #585858;
+@define-color grey-800: #404040;
+@define-color grey-900: #262626;
+@define-color grey-1000: #0f0f0f;
+@define-color orange-100: #fdf2ea;
+@define-color orange-200: #fadfcb;
+@define-color orange-300: #f6c198;
+@define-color orange-400: #f0a05a;
+@define-color orange-500: #ea8614;
+@define-color orange-600: #d57400;
+@define-color orange-700: #b66300;
+@define-color orange-800: #844700;
+@define-color orange-900: #482400;
+@define-color orange-1000: #210d00;
+@define-color cyan-100: #e9f7f3;
+@define-color cyan-200: #c8ece1;
+@define-color cyan-300: #8edac5;
+@define-color cyan-400: #34c6a8;
+@define-color cyan-500: #00b593;
+@define-color cyan-600: #00a182;
+@define-color cyan-700: #008a6f;
+@define-color cyan-800: #00644f;
+@define-color cyan-900: #003528;
+@define-color cyan-1000: #001710;
+@define-color red-100: #fff1f0;
+@define-color red-200: #ffdcda;
+@define-color red-300: #ffbab8;
+@define-color red-400: #fe9493;
+@define-color red-500: #fa7578;
+@define-color red-600: #e46467;
+@define-color red-700: #c35558;
+@define-color red-800: #8d3c3e;
+@define-color red-900: #4d1e1f;
+@define-color red-1000: #240a0a;
+@define-color blue-100: #f0f4ff;
+@define-color blue-200: #dbe4ff;
+@define-color blue-300: #bbcaff;
+@define-color blue-400: #99adff;
+@define-color blue-500: #8198ff;
+@define-color blue-600: #7186f0;
+@define-color blue-700: #6072cd;
+@define-color blue-800: #445295;
+@define-color blue-900: #232b52;
+@define-color blue-1000: #0d1128;
+@define-color violet-100: #f5f2fe;
+@define-color violet-200: #e8e0fe;
+@define-color violet-300: #d4c3fd;
+@define-color violet-400: #bfa3fc;
+@define-color violet-500: #b18bfb;
+@define-color violet-600: #9f79e6;
+@define-color violet-700: #8867c5;
+@define-color violet-800: #624a8f;
+@define-color violet-900: #34264f;
+@define-color violet-1000: #170f25;
+
+@define-color primary: @orange-300;
+@define-color primary-hover: @orange-400;
+@define-color primary-background: @orange-900;
+@define-color secondary: @cyan-300;
+@define-color secondary-hover: @cyan-400;
+@define-color secondary-background: @cyan-900;
+
+@define-color tertiary: @violet-300;
+@define-color tertiary-hover: @violet-400;
+@define-color tertiary-background: @violet-900;
+@define-color quaternary: @blue-300;
+@define-color quaternary-hover: @blue-400;
+@define-color quaternary-background: @blue-900;
+
+@define-color negative: @red-400;
+@define-color negative-hover: @red-500;
+@define-color negative-background: @red-900;
+@define-color positive: @cyan-300;
+@define-color positive-hover: @cyan-400;
+@define-color positive-background: @cyan-900;
+
+@define-color background: @grey-900;
+@define-color foreground: @grey-200;
+@define-color border: @grey-800;
+@define-color muted: @grey-800;
+@define-color muted-foreground: @grey-300;
+
+/* Dynamic Color Palette */
+/* @define-color background #262626;
+@define-color foreground #b4b4b4;
+
+@define-color color0 #262626;
+@define-color color1 #fe9493;
+@define-color color2 #8edac5;
+@define-color color3 #f6c198;
+@define-color color4 #404040;
+@define-color color5 #f6c198;
+@define-color color6 #8edac5;
+@define-color color7 #d4d4d4;
+@define-color color8 #404040;
+@define-color color9 #fa7578;
+@define-color color10 #34c6a8;
+@define-color color11 #f0a05a;
+@define-color color12 #b4b4b4;
+@define-color color13 #f0a05a;
+@define-color color14 #34c6a8;
+@define-color color15 #b4b4b4; */
+
+/* Base GTK theme variables */
+@define-color theme_bg_color @background;
+@define-color theme_fg_color @foreground;
+@define-color theme_base_color @background;
+@define-color theme_text_color @foreground;
+@define-color theme_selected_bg_color @muted;
+@define-color theme_selected_fg_color @muted-foreground;
+@define-color insensitive_bg_color alpha(@background, 0.5);
+@define-color insensitive_fg_color alpha(@foreground, 0.5);
+@define-color insensitive_base_color @background;
+@define-color theme_unfocused_bg_color @background;
+@define-color theme_unfocused_fg_color @foreground;
+@define-color theme_unfocused_base_color @background;
+@define-color theme_unfocused_text_color @foreground;
+@define-color theme_unfocused_selected_bg_color @muted;
+@define-color theme_unfocused_selected_fg_color @muted-foreground;
+
+/* Adwaita Color Overrides */
+@define-color accent_bg_color @muted;
+@define-color accent_fg_color @muted-foreground;
+@define-color accent_color @secondary;
+
+@define-color window_bg_color @background;
+@define-color window_fg_color @foreground;
+
+/* Sidebar background and content */
+@define-color view_bg_color @background;
+@define-color view_fg_color @foreground;
+@define-color sidebar_bg_color @background;
+@define-color sidebar_fg_color @foreground;
+@define-color sidebar_backdrop_color @background;
+@define-color sidebar_shade_color @grey-1000;
+
+@define-color headerbar_bg_color alpha(@foreground, 0.05);
+@define-color headerbar_fg_color @foreground;
+@define-color headerbar_backdrop_color @background;
+@define-color headerbar_shade_color @background;
+@define-color headerbar_border_color alpha(@foreground, 0.15);
+
+@define-color card_bg_color alpha(@foreground, 0.03);
+@define-color card_fg_color @foreground;
+@define-color card_shade_color @background;
+
+@define-color thumbnail_bg_color @background;
+@define-color thumbnail_fg_color @foreground;
+
+@define-color shade_color @background;
+@define-color scrollbar_outline_color @background;
+
+@define-color popover_bg_color @background;
+@define-color popover_fg_color @foreground;
+
+@define-color dialog_bg_color @background;
+@define-color dialog_fg_color @foreground;
+
+@define-color destructive_bg_color @negative-background;
+@define-color destructive_fg_color @negative;
+
+@define-color success_bg_color @positive-background;
+@define-color success_fg_color @positive;
+
+@define-color warning_bg_color @primary-background;
+@define-color warning_fg_color @primary;
+
+@define-color error_bg_color @negative-background;
+@define-color error_fg_color @negative;
+
+@define-color borders alpha(@border, 0.15);
+
+/* Additional bg/fg color variables */
+@define-color window_backdrop_color @grey-1000;
+@define-color view_backdrop_color @grey-1000;
+
+@define-color menu_bg_color @background;
+@define-color menu_fg_color @foreground;
+
+@define-color entry_bg_color alpha(@foreground, 0.03);
+@define-color entry_fg_color @foreground;
+
+@define-color button_bg_color alpha(@foreground, 0.05);
+@define-color button_fg_color @foreground;
+
+@define-color tooltip_bg_color @background;
+@define-color tooltip_fg_color @foreground;
+@define-color tooltip_border_color alpha(@foreground, 0.15);
+
+@define-color osd_bg_color @background;
+@define-color osd_fg_color @foreground;
+@define-color osd_border_color alpha(@foreground, 0.15);
+
+@define-color filechooser_bg_color @background;
+@define-color filechooser_fg_color @foreground;
+
+@define-color nautilus_window_bg_color @background;
+@define-color nautilus_window_fg_color @foreground;
+
+/* Portal/native dialog colors */
+@define-color portal_bg_color @background;
+@define-color portal_fg_color @foreground;
+
+/* Gtk.FileDialog uses these in GTK4 */
+@define-color filedialog_bg_color @background;
+@define-color filedialog_fg_color @foreground;
+
+/* Dropdown/ComboBox colors */
+@define-color dropdown_bg_color @muted;
+@define-color dropdown_fg_color @muted-foreground;
+@define-color dropdown_hover_bg_color alpha(@muted, 0.3);
+@define-color dropdown_selected_bg_color @secondary-background;
+@define-color dropdown_selected_fg_color @secondary;
+
+/* Pathbar/Breadcrumb colors */
+@define-color pathbar_bg_color @background;
+@define-color pathbar_fg_color @foreground;
+
+/* Toolbar colors */
+@define-color toolbar_bg_color @background;
+@define-color toolbar_fg_color @foreground;
+
+/* Notebook/Tab colors */
+@define-color notebook_bg_color @background;
+@define-color notebook_fg_color @foreground;
+
+/* Scrollbar colors */
+@define-color scrollbar_slider_color alpha(@foreground, 0.3);
+@define-color scrollbar_slider_hover_color alpha(@foreground, 0.5);
+@define-color scrollbar_slider_active_color @foreground;
+
+/* Treeview/Listview colors */
+@define-color treeview_bg_color @background;
+@define-color treeview_fg_color @foreground;
+
+/* Link colors */
+@define-color link_color @secondary;
+@define-color link_visited_color @secondary-background;
+
+/* Selection colors (for text selection, etc) */
+@define-color selection_bg_color @secondary-background;
+@define-color selection_fg_color @secondary;
+
+/* Content view (file browser grid/list) */
+@define-color content_view_bg @background;
+@define-color content_view_fg @foreground;
+
+/* Placeholder text in entries */
+@define-color placeholder_text_color alpha(@foreground, 0.5);
+
+/* Dim label */
+@define-color dim_label_color alpha(@foreground, 0.55);
+
+
+/* SVG Icons - recolor to match foreground text */
+.svg-icon {
+    filter: invert(79%) sepia(18%) saturate(611%) hue-rotate(192deg)
+        brightness(103%) contrast(94%);
+}
+
+/* Sharp corners, Hyprland-inspired */
+* {
+    border-radius: 0;
+}
+

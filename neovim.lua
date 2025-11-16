@@ -7,14 +7,14 @@ return {
             disable_italics = false,
             colors = {
                 -- Monotone shades (base00-base07)
-                base00 = "#262626", -- Default background
-                base01 = "#404040", -- Lighter background (status bars)
-                base02 = "#404040", -- Selection background
-                base03 = "#8f8f8f", -- Comments, invisibles
-                base04 = "#d4d4d4", -- Dark foreground
+                base00 = "#1f1f1f", -- Default background
+                base01 = "#2f2f2f", -- Lighter background (status bars)
+                base02 = "#3f3f3f", -- Selection background
+                base03 = "#7f7f7f", -- Comments, invisibles
+                base04 = "#b4b4b4", -- Dark foreground
                 base05 = "#d4d4d4", -- Default foreground
-                base06 = "#eeeeee", -- Light foreground
-                base07 = "#404040", -- Light background
+                base06 = "#f4f4f4", -- Light foreground
+                base07 = "#2f2f2f", -- Light background
 
                 -- Accent colors (base08-base0F)
                 base08 = "#fe9493", -- Variables, errors, red

@@ -1,13 +1,14 @@
 
-@define-color grey-100: #eeeeee;
-@define-color grey-200: #d4d4d4;
-@define-color grey-300: #b4b4b4;
-@define-color grey-400: #8f8f8f;
-@define-color grey-500: #808080;
-@define-color grey-600: #6f6f6f;
-@define-color grey-700: #585858;
-@define-color grey-800: #404040;
-@define-color grey-900: #262626;
+@define-color grey-100: #f4f4f4;
+@define-color grey-200: #e4e4e4;
+@define-color grey-300: #d4d4d4;
+@define-color grey-400: #b4b4b4;
+@define-color grey-500: #a4a4a4;
+@define-color grey-550: #7f7f7f;
+@define-color grey-600: #5f5f5f;
+@define-color grey-700: #3f3f3f;
+@define-color grey-800: #2f2f2f;
+@define-color grey-900: #1f1f1f;
 @define-color grey-1000: #0f0f0f;
 @define-color orange-100: #fdf2ea;
 @define-color orange-200: #fadfcb;
@@ -87,26 +88,6 @@
 @define-color muted: @grey-800;
 @define-color muted-foreground: @grey-300;
 
-/* Dynamic Color Palette */
-/* @define-color background #262626;
-@define-color foreground #b4b4b4;
-
-@define-color color0 #262626;
-@define-color color1 #fe9493;
-@define-color color2 #8edac5;
-@define-color color3 #f6c198;
-@define-color color4 #404040;
-@define-color color5 #f6c198;
-@define-color color6 #8edac5;
-@define-color color7 #d4d4d4;
-@define-color color8 #404040;
-@define-color color9 #fa7578;
-@define-color color10 #34c6a8;
-@define-color color11 #f0a05a;
-@define-color color12 #b4b4b4;
-@define-color color13 #f0a05a;
-@define-color color14 #34c6a8;
-@define-color color15 #b4b4b4; */
 
 /* Base GTK theme variables */
 @define-color theme_bg_color @background;

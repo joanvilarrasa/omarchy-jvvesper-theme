@@ -84,9 +84,9 @@
 
 @define-color background: @grey-900;
 @define-color foreground: @grey-200;
-@define-color border: @grey-800;
+@define-color border: @grey-700;
 @define-color muted: @grey-800;
-@define-color muted-foreground: @grey-300;
+@define-color muted-foreground: @grey-550;
 
 
 /* Base GTK theme variables */
@@ -244,10 +244,5 @@
 .svg-icon {
     filter: invert(79%) sepia(18%) saturate(611%) hue-rotate(192deg)
         brightness(103%) contrast(94%);
-}
-
-/* Sharp corners, Hyprland-inspired */
-* {
-    border-radius: 0;
 }
 

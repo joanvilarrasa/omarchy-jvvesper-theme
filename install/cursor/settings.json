@@ -1,0 +1,26 @@
+{     
+    "window.commandCenter": true,
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "'AtkynsonMono NFM', 'monospace', monospace",
+    "workbench.colorTheme": "Vesper",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#1f1f1f",
+        "terminal.foreground": "#e4e4e4",
+        "terminal.ansiBlack": "#1f1f1f",
+        "terminal.ansiBlue": "#e4e4e4",
+        "terminal.ansiBrightBlack": "#3f3f3f",
+        "terminal.ansiBrightBlue": "#f4f4f4",
+        "terminal.ansiBrightCyan": "#34c6a8",
+        "terminal.ansiBrightGreen": "#34c6a8",
+        "terminal.ansiBrightMagenta": "#f4f4f4",
+        "terminal.ansiBrightRed": "#fe9493",
+        "terminal.ansiBrightWhite": "#f4f4f4",
+        "terminal.ansiBrightYellow": "#f0a05a",
+        "terminal.ansiCyan": "#8edac5",
+        "terminal.ansiGreen": "#8edac5",
+        "terminal.ansiMagenta": "#e4e4e4",
+        "terminal.ansiRed": "#ffbab8",
+        "terminal.ansiWhite": "#e4e4e4",
+        "terminal.ansiYellow": "#f6c198"
+    }
+}

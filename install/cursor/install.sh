@@ -1,0 +1,1 @@
+cp $JVVESPER_THEME_PATH/install/cursor/settings.json ~/.config/Cursor/User/settings.json

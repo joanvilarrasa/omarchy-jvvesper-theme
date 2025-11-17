@@ -4,3 +4,8 @@
 @define-color border #f6c198;
 @define-color foreground #d4d4d4;
 @define-color background #1f1f1f;
+
+/* ----- Main Window Wrapper ----- */
+.box-wrapper {
+    border-radius: 12px; /* main wrapper corners */
+}

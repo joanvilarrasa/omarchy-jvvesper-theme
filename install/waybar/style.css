@@ -22,7 +22,7 @@ window#waybar {
     margin-left: 8px;
 }
 .modules-center {
-    font-weight: bold;
+    font-weight: normal;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-right: 8px;

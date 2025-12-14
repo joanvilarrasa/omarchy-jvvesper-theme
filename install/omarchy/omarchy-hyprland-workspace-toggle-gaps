@@ -8,9 +8,3 @@ if [[ $gaps == "0" ]]; then
 else \
   hyprctl keyword "workspace $workspace_id, gapsout:0, gapsin:0"
 fi
-
-if pgrep -x waybar >/dev/null; then
-  pkill -x waybar
-else
-  uwsm-app -- waybar >/dev/null 2>&1 &
-fi
